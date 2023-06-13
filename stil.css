@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	color: black;
+	@font-face font-family: "AmandaJelusic_novo";
+	src:url("Nova mapa/AmandaJelusic_novo.ttf");
+	font-size: 14px;
+	line-height: 18px;
+	width: 600px;
+	background-color: antiquewhite;
+	padding: 20px;
+}
+.paragraf_2 {color: black; background-color: rgba(255, 255, 255, 0.5)}
+.novi blok {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	margin: 20px;
+	width: 70%;
+}
+}
+h1, h2, h3 {
+	font-family: "AmandaJelusic_novo";
+	color: antiquewhite;
+	font-size:35px;
+}
+
+span {color: #4A206B;}
+body {
+	background-image: url("Nova mapa/bg.jpg");
+}
+
+a:link {
+	color: black;
+	background-color: antiquewhite;
+	padding: 5px;
+	line-height: 40px;
+	border: 1px solid antiquewhite;
+}
+a:hover{
+	background-color: darkgray;
+}
+img {
+	height:400px;
+	
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  background-color: antiquewhite;
+  opacity:60%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: antiquewhite;
+}
+
+
